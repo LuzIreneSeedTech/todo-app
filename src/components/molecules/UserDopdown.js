@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 import UserProfile from '../atoms/UserProfile'
-import arrow from '../../assets/arrow-down.png'
-import calendar from '../../assets/calendar.png'
-import edit from '../../assets/edit-btn.png'
+import profile from '../../assets/profile.png'
+import tasks from '../../assets/tasks.png'
+import logout from '../../assets/logout.png'
 import { useNavigate } from 'react-router-dom'
 
 const UserDopdown = () => {
@@ -36,14 +36,14 @@ const UserDopdown = () => {
 
       <div className={`dropdown-menu ${open ? 'active' : 'inactive'}`}>
         <ul>
-            <DropdownItem assets = {arrow} text = {"Profile"} />
+            <DropdownItem assets = {profile} text = {"Profile"} />
 
             <div onClick={navigateToAllTasks}>
-                <DropdownItem assets = {calendar} text = {"Tasks"} />
+                <DropdownItem assets = {tasks} text = {"Tasks"} />
             </div>
 
             <div onClick={navigateToWelcomePage}>
-                <DropdownItem assets = {edit} text = {"logout"} />
+                <DropdownItem assets = {logout} text = {"logout"} />
             </div>
             
         </ul>
