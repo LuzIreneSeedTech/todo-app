@@ -261,7 +261,7 @@
   height: 55px;
   background-image: url("../assets/userProfile.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 55px;
   border: none;
@@ -495,7 +495,7 @@
   height: 55px;
   background-image: url("../assets/userProfile.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 55px;
   border: none;
@@ -831,7 +831,7 @@
   height: 55px;
   background-image: url("../assets/userProfile.jpg");
   background-size: cover;
-  background-position: top;
+  background-position: center;
   background-repeat: no-repeat;
   border-radius: 55px;
   border: none;
