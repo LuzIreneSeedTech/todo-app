@@ -2,7 +2,6 @@ import React from 'react'
 import FirstCategory from '../components/molecules/FirstCategory'
 import SecondCategory from '../components/molecules/SecondCategory'
 import { useNavigate } from 'react-router-dom'
-import UserProfile from '../components/atoms/UserProfile'
 import ProgressBar from '../components/atoms/ProgressBar'
 import UserDopdown from '../components/molecules/UserDopdown'
 
