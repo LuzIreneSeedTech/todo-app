@@ -41,7 +41,7 @@ const Login = () => {
               </div>
 
               <div className='login-footer'>
-                  <p>Don't have an account? <a onClick={navigateToRegister}>Register</a></p>
+                  <p>Don't have an account? <a href='#' onClick={navigateToRegister}>Register</a></p>
               </div>
           </div>
       </div>
