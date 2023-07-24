@@ -123,10 +123,12 @@
     .login-footer {
         @include form-footer-style;
 
-        a {
-            color: #06F;
-            text-decoration: none;
-            cursor: pointer;
+        .footer-content {
+            span {
+                color: #06F !important;
+                text-decoration: none;
+                cursor: pointer;
+            }
         }
     }
 
@@ -186,7 +188,7 @@
     .register-footer {
         @include form-footer-style;
 
-        a {
+        span {
             color: #06F;
             text-decoration: none;
             cursor: pointer;
