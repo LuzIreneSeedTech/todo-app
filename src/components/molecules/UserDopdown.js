@@ -23,7 +23,7 @@ const UserDopdown = () => {
         return (
             <li className='dropdown-item'>
                 <img src={props.assets} alt='portrait of a golden retriever dog'></img>
-                <a href='#'>{props.text}</a>
+                <span>{props.text}</span>
             </li>
         );
     }
