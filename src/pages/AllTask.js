@@ -1,5 +1,4 @@
 import WPCreateTaskBtn from '../components/atoms/WPCreateTaskBtn'
-import UserProfile from '../components/atoms/UserProfile'
 import TaskCard from '../components/organisms/TaskCard'
 import Data from '../allTaskMockData.json'
 import { useEffect, useState } from 'react'

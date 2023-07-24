@@ -2,7 +2,7 @@ import React from 'react'
 import AddIcon from '../components/molecules/AddIcon'
 import WPCreateTaskBtn from '../components/atoms/WPCreateTaskBtn'
 import { useState } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 import UserDopdown from '../components/molecules/UserDopdown'
 
 const CreateTask = () => {
