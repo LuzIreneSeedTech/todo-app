@@ -144,8 +144,8 @@
   letter-spacing: 0.2px;
   padding-top: 15px;
 }
-.login-base .login-footer a {
-  color: #06F;
+.login-base .login-footer .footer-content span {
+  color: #06F !important;
   text-decoration: none;
   cursor: pointer;
 }
@@ -230,7 +230,7 @@
   letter-spacing: 0.2px;
   padding-top: 15px;
 }
-.register-base .register-footer a {
+.register-base .register-footer span {
   color: #06F;
   text-decoration: none;
   cursor: pointer;
@@ -292,7 +292,7 @@
   max-width: 20px;
   margin-right: 10px;
 }
-.homepage-base .homepage-content .user-space-wrapper .dropdown-menu .dropdown-item a {
+.homepage-base .homepage-content .user-space-wrapper .dropdown-menu .dropdown-item span {
   max-width: 200px;
   margin-left: 10px;
   cursor: pointer;
@@ -526,7 +526,7 @@
   max-width: 20px;
   margin-right: 10px;
 }
-.create-task-wrapper .create-task-content .header .dropdown-menu .dropdown-item a {
+.create-task-wrapper .create-task-content .header .dropdown-menu .dropdown-item span {
   max-width: 200px;
   margin-left: 10px;
   cursor: pointer;
@@ -862,7 +862,7 @@
   max-width: 20px;
   margin-right: 10px;
 }
-.all-task-wrapper .all-task-content .header .dropdown-menu .dropdown-item a {
+.all-task-wrapper .all-task-content .header .dropdown-menu .dropdown-item span {
   max-width: 200px;
   margin-left: 10px;
   cursor: pointer;
