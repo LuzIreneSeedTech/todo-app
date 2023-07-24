@@ -22,8 +22,8 @@ const UserDopdown = () => {
     function DropdownItem(props){
         return (
             <li className='dropdown-item'>
-                <img src={props.assets}></img>
-                <a>{props.text}</a>
+                <img src={props.assets} alt='portrait of a golden retriever dog'></img>
+                <a href='#'>{props.text}</a>
             </li>
         );
     }

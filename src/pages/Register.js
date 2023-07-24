@@ -40,7 +40,7 @@ const Register = () => {
           </div>
 
           <div className='register-footer'>
-            <p>Already have an account? <a onClick={navigateToLogin}>Login</a></p>
+            <p>Already have an account? <a href='#' onClick={navigateToLogin}>Login</a></p>
           </div>
         </div>
       </div>
